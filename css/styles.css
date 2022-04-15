@@ -29,6 +29,10 @@ body {
     font-size: 30px;
 }
 
+.right {
+    text-align: right;
+}
+
 .centrado {
     text-align: center;
 }
@@ -249,63 +253,26 @@ iframe {
 }
 
 /*Formulario*/
-form {
-    font-weight: bold;
-    width: 500px;
-    padding: 16px;
-    margin: auto;
+.formInterlineado {
+    line-height: 40px;
 }
 
-form label {
-    width: 70px;
-    margin-left: 10px;
-    display: inline-block;
+legend {
+    margin-left: 7rem;
 }
 
-form input[type="text"],
-form input[type="email"],
-form input[type="tel"] {
-    width: 250px;
-    padding: 5px 10px;
-    border: 1px solid #f6f6f6;
-    border-radius: 3px;
-    background-color: #f6f6f6;
-    margin: 8px 10px;
+.botonEnviar {
+    color: #ffffff;
+    background-color: #794faf;
+    border-color: #794faf;
 }
 
-form input[type="submit"] {
-    width: 80px;
-    padding: 8px 16px;
-    margin-top: 15px;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    border: 1px solid #9c27b0;
-    border-radius: 5px;
-    display: block;
-    color: #fff;
-    background-color: #9c27b0;
+.formBox {
+    width: 50%;
 }
 
-textarea {
-    width: 450px;
-    height: 150px;
-    border: 1px solid #9c27b0;
-    border-radius: 1px;
-    background-color: #f6f6f6;
-    margin: 8px 10px;
-    display: block;
-}
-
-form input[type="checkbox"] {
-    display: block;
-    margin: 5px;
-}
-
-.labelCheckbox {
-    text-align: left;
-    width: 350px;
-    display: block;
-    margin-left: 30px;
+form fieldset button {
+    margin-left: 14rem;
 }
 
 /* Estilos Footer y Botones Abajo*/
@@ -335,7 +302,7 @@ footer {
 
 /*GRID GENERAL*/
 
-.container {
+.containerIndex {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: 0.58fr 3fr 0.59fr;
